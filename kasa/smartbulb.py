@@ -2,7 +2,8 @@
 import re
 from typing import Any, Dict, Tuple, cast
 
-from kasa.smartdevice import (
+#from kasa.smartdevice import (
+from smartdevice import (
     DeviceType,
     SmartDevice,
     SmartDeviceException,

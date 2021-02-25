@@ -5,13 +5,13 @@ import logging
 import socket
 from typing import Awaitable, Callable, Dict, Mapping, Optional, Type, Union, cast
 
-from kasa.protocol import TPLinkSmartHomeProtocol
-from kasa.smartbulb import SmartBulb
-from kasa.smartdevice import SmartDevice, SmartDeviceException
-from kasa.smartdimmer import SmartDimmer
-from kasa.smartlightstrip import SmartLightStrip
-from kasa.smartplug import SmartPlug
-from kasa.smartstrip import SmartStrip
+from protocol import TPLinkSmartHomeProtocol
+from smartbulb import SmartBulb
+from smartdevice import SmartDevice, SmartDeviceException
+from smartdimmer import SmartDimmer
+from smartlightstrip import SmartLightStrip
+from smartplug import SmartPlug
+from smartstrip import SmartStrip
 
 _LOGGER = logging.getLogger(__name__)
 

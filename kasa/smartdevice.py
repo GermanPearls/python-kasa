@@ -19,8 +19,10 @@ from datetime import datetime, timedelta
 from enum import Enum
 from typing import Any, Dict, List, Optional
 
-from .exceptions import SmartDeviceException
-from .protocol import TPLinkSmartHomeProtocol
+#from .exceptions import SmartDeviceException
+#from .protocol import TPLinkSmartHomeProtocol
+from exceptions import SmartDeviceException
+from protocol import TPLinkSmartHomeProtocol
 
 _LOGGER = logging.getLogger(__name__)
 

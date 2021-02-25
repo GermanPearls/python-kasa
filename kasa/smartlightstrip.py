@@ -1,8 +1,10 @@
 """Module for light strips (KL430)."""
 from typing import Any, Dict
 
-from .smartbulb import SmartBulb
-from .smartdevice import DeviceType, requires_update
+#from .smartbulb import SmartBulb
+#from .smartdevice import DeviceType, requires_update
+from smartbulb import SmartBulb
+from smartdevice import DeviceType, requires_update
 
 
 class SmartLightStrip(SmartBulb):

@@ -5,14 +5,14 @@ from datetime import datetime, timedelta
 from typing import Any, DefaultDict, Dict, Optional
 
 #from kasa.smartdevice import (
-from smartdevice import (
+from .smartdevice import (
     DeviceType,
     SmartDevice,
     SmartDeviceException,
     requires_update,
 )
 #from kasa.smartplug import SmartPlug
-from smartplug import SmartPlug
+from .smartplug import SmartPlug
 
 _LOGGER = logging.getLogger(__name__)
 

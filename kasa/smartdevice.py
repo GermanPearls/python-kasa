@@ -21,8 +21,8 @@ from typing import Any, Dict, List, Optional
 
 #from .exceptions import SmartDeviceException
 #from .protocol import TPLinkSmartHomeProtocol
-from exceptions import SmartDeviceException
-from protocol import TPLinkSmartHomeProtocol
+from .exceptions import SmartDeviceException
+from .protocol import TPLinkSmartHomeProtocol
 
 _LOGGER = logging.getLogger(__name__)
 

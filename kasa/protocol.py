@@ -17,7 +17,7 @@ from pprint import pformat as pf
 from typing import Dict, Union
 
 #from .exceptions import SmartDeviceException
-from exceptions import SmartDeviceException
+from .exceptions import SmartDeviceException
 
 _LOGGER = logging.getLogger(__name__)
 

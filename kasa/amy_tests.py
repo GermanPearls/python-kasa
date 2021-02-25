@@ -1,7 +1,7 @@
 """Discover and control smart plugs and smart bulbs"""
 import asyncio
 
-from discover import Discover
+from .discover import Discover
 
 devices = asyncio.run(Discover.discover())
 
@@ -26,11 +26,11 @@ northPorchLight = devices[deviceIPsByName[northPorchLightName]]
 southPorchLight = devices[deviceIPsByName[southPorchLightName]]
 
 
-export def turn_on_living_room_lights():
+def turn_on_living_room_lights():
     asyncio.run(livingRoomLampOne.turn_on())
     asyncio.run(livingRoomLampTwo.turn_on())
 
-export def turn_off_living_room_lights():
+def turn_off_living_room_lights():
     asyncio.run(livingRoomLampOne.turn_off())
     asyncio.run(livingRoomLampTwo.turn_off())
 

@@ -5,13 +5,13 @@ import logging
 import socket
 from typing import Awaitable, Callable, Dict, Mapping, Optional, Type, Union, cast
 
-from protocol import TPLinkSmartHomeProtocol
-from smartbulb import SmartBulb
-from smartdevice import SmartDevice, SmartDeviceException
-from smartdimmer import SmartDimmer
-from smartlightstrip import SmartLightStrip
-from smartplug import SmartPlug
-from smartstrip import SmartStrip
+from .protocol import TPLinkSmartHomeProtocol
+from .smartbulb import SmartBulb
+from .smartdevice import SmartDevice, SmartDeviceException
+from .smartdimmer import SmartDimmer
+from .smartlightstrip import SmartLightStrip
+from .smartplug import SmartPlug
+from .smartstrip import SmartStrip
 
 _LOGGER = logging.getLogger(__name__)
 

@@ -26,13 +26,13 @@ northPorchLight = devices[deviceIPsByName[northPorchLightName]]
 southPorchLight = devices[deviceIPsByName[southPorchLightName]]
 
 
-def turn_on_living_room_lights():
+export def turn_on_living_room_lights():
     asyncio.run(livingRoomLampOne.turn_on())
     asyncio.run(livingRoomLampTwo.turn_on())
 
-def turn_off_living_room_lights():
+export def turn_off_living_room_lights():
     asyncio.run(livingRoomLampOne.turn_off())
     asyncio.run(livingRoomLampTwo.turn_off())
 
 #turn_on_living_room_lights()
-turn_off_living_room_lights()
+#turn_off_living_room_lights()
